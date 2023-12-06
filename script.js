@@ -23,7 +23,7 @@ function backspace() {
   }
 }
 
-/*confirma é para enviar o resultado final ao p quando clicar no = */
+/*confirma que é para enviar o resultado final ao p quando clicar no = */
 function confirma() {
   if (resultado.textContent != "Erro") {
     document.getElementById("resultado").innerHTML = eval(conta.innerHTML);

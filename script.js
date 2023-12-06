@@ -13,6 +13,7 @@ function insert(valor) {
 function clean() {
   resultado.innerHTML = " ";
   conta.innerHTML = " ";
+  confirmar.focus();
 }
 
 /*backspace é usada quando eu quero apagar somente o ultimo digito */
@@ -43,7 +44,7 @@ document.addEventListener("keydown", (event) => {
     keyName == "*" ||
     keyName == "+" ||
     keyName == "-" ||
-    keyName == "."
+    keyName == "." 
   ) {
     insert(keyName);
   }

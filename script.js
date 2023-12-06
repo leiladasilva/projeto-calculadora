@@ -4,12 +4,12 @@ const resultado = document.querySelector(".result");
 const conta = document.getElementById("conta");
 const confirmar = document.querySelector(".igual");
 
-/*O insert significa que eu quero inserir aluma coisa. */
+/*O insert significa que eu quero inserir alguma coisa. */
 function insert(valor) {
   conta.innerHTML += valor;
 }
 
-/*A função clean é usada para limpar tudo que tá dentro do <p> */
+/*A função clean é usada para limpar tudo que está dentro do <p> */
 function clean() {
   resultado.innerHTML = " ";
   conta.innerHTML = " ";
